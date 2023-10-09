@@ -6,5 +6,6 @@ public class App {
     System.out.print("Introduzca la cantidad de euros: ");
     int a = sc.nextInt();
     System.out.printf("%d %s %.2f %s", a, " euros son" , a*166.4, "pesetas");
+    sc.close();
     }
 }
