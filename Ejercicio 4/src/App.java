@@ -11,5 +11,6 @@ public class App {
     System.out.println("La resta de "+a+" y "+b+" es: "+(a-b));
     System.out.println("La multiplicación de "+a+" y "+b+" es: "+(a*b));
     System.out.println("La división de "+a+" y "+b+" es: "+(a/b));
+    sc.close();
 }
 }
