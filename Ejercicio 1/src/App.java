@@ -8,5 +8,6 @@ public class App {
         System.out.println("Introduzca el segundo número: ");
         int b = sc.nextInt();
         System.out.println("El producto de "+a+" y "+b+" es: "+(a*b));
+        sc.close();
     }
 }
